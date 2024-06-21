@@ -1,0 +1,94 @@
+body{
+    background-color: #182343;
+    font-family: sans-serif;
+}
+
+.title{
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    padding-left:10px;
+    width: 80px;
+}
+
+.your-points{
+    background-color: white;
+    border-radius: 3px;
+    height: 45px;
+    font-size: 8px;
+    font-weight: 700;
+    width:60px;
+    margin-right: 10px;
+}
+.points{
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+}
+.user{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+.title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid rgb(86,99,127);
+    height: 60px;
+    border-radius: 9px;
+}
+
+
+.box{
+    margin-top: 45px;
+    border-radius: 120px;
+    border: none;
+    margin-bottom: 45px;
+}
+
+.pic-rock,.pic-paper,.pic-scissor{
+    width: 120px;
+    border-radius: 120px;
+}
+
+.pic-rock:active,
+.pic-paper:active,
+.pic-scissor:active
+{
+    border: 10px solid rgba(255, 0, 0, 0.5);
+}
+.vs{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(242, 124, 124);
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    padding-left:10px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.computer{
+    display: flex;
+    justify-content: center;
+}
+
+.winner{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+.rock-paper,
+.scissor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
